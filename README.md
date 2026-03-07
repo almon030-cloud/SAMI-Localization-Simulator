@@ -1,3 +1,4 @@
+![SAMI Localization Dashboard](localization_dashboard.png)
 # Supply Chain Localization Simulator: Vision 2030 Strategic Model
 
 ## Executive Overview
