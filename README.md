@@ -1,3 +1,4 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sami-vision-2030-simulator.streamlit.app)
 ![SAMI Localization Dashboard](localization_dashboard.png)
 # Supply Chain Localization Simulator: Vision 2030 Strategic Model
 
