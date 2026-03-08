@@ -32,4 +32,4 @@ Based on the current model calibration:
 
 ---
 **Author**: Saud Almonaiseer  
-* Student | University of Minnesota*
+* Student | University of Minnesota *
