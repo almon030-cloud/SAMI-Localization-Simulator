@@ -17,7 +17,7 @@ st.markdown("---")
 # ==========================================
 # 2. DYNAMIC SIDEBAR CONTROLS
 # ==========================================
-st.sidebar.image("https://www.vision2030.gov.sa/media/rc0bc5xt/v2030_logo.png", width=200)
+st.sidebar.image("https://sami.com.sa/assets/images/logo.png", width=200)
 st.sidebar.header("🎯 Localization Strategy")
 
 # Baseline target from resume: 51.03%
