@@ -17,7 +17,7 @@ st.markdown("---")
 # ==========================================
 # 2. DYNAMIC SIDEBAR CONTROLS
 # ==========================================
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/2560px-Flag_of_Saudi_Arabia.svg.png", width=150)
+st.sidebar.image("https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/SAMI_Saudi_Arabian_Military_Industries_Logo.svg/1200px-SAMI_Saudi_Arabian_Military_Industries_Logo.svg.png", width=200)
 st.sidebar.header("🎯 Localization Strategy")
 
 # Baseline target from resume: 51.03%
