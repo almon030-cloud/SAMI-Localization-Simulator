@@ -49,3 +49,29 @@ if logistics_risk == "Red Sea Crisis":
     st.error(f"🚨 **Strategic Alert:** Localization is now a National Security priority. Supply chain lag is costing an additional {cost_variance/1e6:,.1f}M SAR.")
 else:
     st.success(f"✅ Logistics environment: {logistics_risk}. Model operating within baseline parameters.")
+
+# 7. Advanced Visualization: Risk Distribution (The Bell Curve)
+st.markdown("---")
+st.subheader("📊 Strategic Risk Distribution")
+st.write("Visualizing the statistical probability of achieving localization targets under current logistics stress.")
+
+import plotly.figure_factory as ff
+
+# Create a distribution plot (Bell Curve) of our 1,000 scenarios
+hist_data = [sim_data]
+group_labels = ['Localization % Probability']
+
+fig = ff.create_distplot(hist_data, group_labels, bin_size=1, show_rug=False)
+fig.update_layout(title_text='Localization Success Probability Density', template='plotly_dark')
+
+# Add a vertical line for the 51.03% Resume Target
+fig.add_vline(x=51.03, line_dash="dash", line_color="green", annotation_text="Vision 2030 Benchmark (51.03%)")
+
+st.plotly_chart(fig, use_container_width=True)
+
+# 8. Executive Decision Matrix
+st.subheader("💡 Executive Recommendation")
+if impacted_lead_time > 15:
+    st.warning(f"⚠️ **Critical Threshold Breached:** Lead time of {impacted_lead_time:.1f} days exceeds strategic buffer. Immediate local inventory ramp-up required.")
+else:
+    st.success(f"✅ **Safe Harbor:** Current supply chain metrics support the 2030 localization trajectory.")
