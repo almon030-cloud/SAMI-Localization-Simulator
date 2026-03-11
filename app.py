@@ -94,6 +94,15 @@ with tab1:
     fig_gauge.update_layout(height=400, template='plotly_dark')
     st.plotly_chart(fig_gauge, use_container_width=True)
 
+    # 📝 New: Strategic Analysis Text
+    st.markdown("---")
+    st.subheader("📝 Strategic Narrative")
+    st.info(f"""
+    **Current Analysis:** Under {logistics_risk} conditions, the supply chain is experiencing a 
+    lead time variance of {impacted_lead_time - 8.94:.2f} days beyond the baseline. 
+    To maintain the **51.03% localization mandate**, SAMI must offset the **{cost_variance/1e6:,.1f}M SAR** logistics premium through accelerated local vendor onboarding.
+    """)
+
 # ---------- TAB 2: RISK ANALYTICS ----------
 with tab2:
     st.subheader("Stochastic Risk Distribution (1,000 Scenarios)")
