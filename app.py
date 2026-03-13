@@ -8,16 +8,16 @@ import plotly.figure_factory as ff
 # ==========================================
 # 1. ENTERPRISE PAGE CONFIGURATION
 # ==========================================
-st.set_page_config(page_title="SAMI Digital Twin", page_icon="🇸🇦", layout="wide")
+st.set_page_config(page_title="SAMI Digital Twin", page_icon="🛡️", layout="wide")
 
-st.title("🇸🇦 SAMI Defense Localization Digital Twin")
+st.title("🛡️ SAMI Defense Localization Digital Twin")
 st.markdown("**Vision 2030 Strategic Procurement & Risk Modeling Engine**")
 st.markdown("---")
 
 # ==========================================
 # 2. DYNAMIC SIDEBAR CONTROLS
 # ==========================================
-st.sidebar.markdown("## 🇸🇦 SAMI Digital Twin")
+st.sidebar.markdown("## 🛡️ SAMI Digital Twin")
 st.sidebar.header("🎯 Localization Strategy")
 
 # Baseline target from resume: 51.03%
