@@ -17,7 +17,7 @@ st.markdown("---")
 # ==========================================
 # 2. DYNAMIC SIDEBAR CONTROLS
 # ==========================================
-st.sidebar.image("https://sami.com.sa/assets/images/logo.png", width=200)
+st.sidebar.markdown("## 🇸🇦 SAMI Digital Twin")
 st.sidebar.header("🎯 Localization Strategy")
 
 # Baseline target from resume: 51.03%
